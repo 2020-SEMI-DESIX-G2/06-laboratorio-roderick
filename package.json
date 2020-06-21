@@ -1,0 +1,32 @@
+{
+  "name": "01-proyecto-roderick",
+  "version": "1.0.0",
+  "description": "proyecto 1 desarrollo 9",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2020-SEMI-DESIX-G2/01-proyecto-roderick.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "pug"
+  ],
+  "author": "Roderick Romero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/2020-SEMI-DESIX-G2/01-proyecto-roderick/issues"
+  },
+  "homepage": "https://github.com/2020-SEMI-DESIX-G2/01-proyecto-roderick#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
