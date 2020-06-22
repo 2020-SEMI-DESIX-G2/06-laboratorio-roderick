@@ -1,5 +1,4 @@
 const express = require("express");
-const path = require("path");
 const morgan = require("morgan");
 const bodyParser = require("body-parser");
 
@@ -9,14 +8,6 @@ const routes = require("./routes");
 const app = express();
 
 const PORT = process.env.PORT || 3000;
-
-const PUBLIC_FILES = path.join(__dirname, "public");
-const VIEWS_PATH = path.join(__dirname, "views");
-
-app.set("views", VIEWS_PATH);
-app.set("view engine", "pug");
-
-app.use("/public", express.static(PUBLIC_FILES));
 
 //middlewares
 
