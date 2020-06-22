@@ -4,9 +4,12 @@ const router = express.Router();
 const estudiantes = require("./estudiantes");
 
 router.get("/", (req, res) => {
-  res.status(200).render("index", { title: "Estudiantes" });
+  res.status(200).json({
+    success: true,
+    message: "Bienvenido a Estudiantes",
+  });
 });
 
-//router.use("/estudiantes", estudiantes);
+router.use("/estudiantes", estudiantes);
 
 module.exports = router;
