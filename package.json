@@ -25,7 +25,7 @@
   "homepage": "https://github.com/2020-SEMI-DESIX-G2/01-proyecto-roderick#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "morgan": "^1.10.0",
     "uuid": "^8.1.0"
   },
